@@ -14,6 +14,8 @@ header h1 {
 
 .container {
     display: flex;
+    flex-direction:column;
+    width: 100%vh;
 }
 
 .menu {
@@ -27,3 +29,21 @@ header h1 {
     color: #ffffff; 
 }
 
+.panel {
+    border: 5px solid #ff0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.square {
+    border: 1px solid #000000;
+    height: 150px;
+    width: 150px;
+    background-color: #7fffd4;    
+}
+
+.enemy {
+    background-color: #ff0000;
+}
