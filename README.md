@@ -21,7 +21,7 @@ Divirta-se jogando o JSGame Detona Ralph enquanto explora as técnicas modernas 
 ![image](https://github.com/flauper2021/detona-ralf/blob/main/src/images/pagina-detona-Ralph.png)
 
 
-[Link do Pagina](https://detona-ralf-841gbxt2u-mauricio-alejandros-projects.vercel.app/) Pagina do jogo no Vercel.
+[Link do Pagina](https://detona-ralf-phi.vercel.app/) Pagina do jogo no Vercel.
 
 Grato por visitar meu Github.
 
