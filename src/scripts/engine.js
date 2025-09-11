@@ -23,7 +23,7 @@ const state = {
 };
 
 function playSound(audioName) {
-    let audio = new Audio(`./src/sounds/${audioName}.mp3 && ./src/sounds/${audioName}.m4a`);
+    let audio = new Audio(`./src/sounds/${audioName}.mp3`);
     audio.volume = 0.1;
     audio.play();
 }
@@ -69,6 +69,7 @@ function addListenerHitBox() {
                     clearInterval(state.actions.countDownTimerId);
                     state.view.squares.forEach((square) => {
                         square.classList.remove("enemy");
+                        square.style.pointerEvents = "none";
                     });
                 }
             }

@@ -21,7 +21,7 @@ Divirta-se jogando o JSGame Detona Ralph enquanto explora as técnicas modernas 
 ![image](https://github.com/flauper2021/detona-ralf/blob/main/src/images/pagina-detona-Ralph.png)
 
 
-[Link do Pagina](https://flauper2021.github.io/trilha-css-desafio-01-ri-happy/) Pagina da Landing Page.
+[Link do Pagina](https://flauper2021.github.io/detona-ralf/) Pagina da Landing Page.
 
 Grato por visitar meu Github.
 
