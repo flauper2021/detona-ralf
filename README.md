@@ -8,7 +8,7 @@ Sprites e imagens customizadas para criar a estética única do universo de Deto
 Funcionalidades Incríveis
 Sistema de Pontuação: Acompanhe sua pontuação à medida que progride no jogo e desafie seus amigos a superá-la, clique no quadrado que o Ralph se encontre
 
-# Como Jogar
+### Como Jogar
 Clone este repositório para sua máquina local.
 Abra o arquivo index.html em seu navegador web.
 Use o mouse para clicar no Ralfh para pontuar.
@@ -22,7 +22,7 @@ Divirta-se jogando o JSGame Detona Ralph enquanto explora as técnicas modernas 
 ![image](https://github.com/flauper2021/detona-ralf/blob/main/src/images/pagina-detona-Ralph.png) Imagem da pagina.
 
 
-[Link do Pagina](https://detona-ralf-phi.vercel.app/ "Abrir em nova aba"){target="_blank"} Pagina do jogo no Vercel.
+[Link do Pagina] (<a href="https://detona-ralf-phi.vercel.app/" target="_blank">) Pagina do jogo no Vercel.
 
 Grato por visitar meu Github.
 
