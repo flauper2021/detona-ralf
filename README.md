@@ -18,7 +18,7 @@ Este jogo foi desenvolvido como parte de um projeto educacional da Digital Innov
 
 Divirta-se jogando o JSGame Detona Ralph enquanto explora as técnicas modernas de desenvolvimento de jogos em JavaScript. Lembre-se de conferir o repositório original aqui e deixar uma ⭐️ se você gostou do projeto!
 
-![image](https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png)
+![image](https://github.com/flauper2021/detona-ralf/blob/main/src/images/pagina-detona-Ralph.png)
 
 
 [Link do Pagina](https://flauper2021.github.io/trilha-css-desafio-01-ri-happy/) Pagina da Landing Page.
