@@ -76,7 +76,31 @@ function addListenerHitBox() {
         });
     });
 }
-    
+
+function restartGame() {
+    // Resetar valores
+    state.values.lives = 3;
+    state.values.result = 0;
+    state.values.currentTime = 60;
+    state.view.lives.textContent = state.values.lives;
+    state.view.score.textContent = state.values.result;
+    state.view.timeLeft.textContent = state.values.currentTime;
+
+    // Reativar quadrados
+    state.view.squares.forEach((square) => {
+        square.classList.remove("enemy");
+        square.style.pointerEvents = "auto";
+    });
+
+    // Limpar intervalos antigos
+    clearInterval(state.actions.timeId);
+    clearInterval(state.actions.countDownTimerId);
+
+    // Iniciar novamente
+    state.actions.timeId = setInterval(randomSquare, 1000);
+    state.actions.countDownTimerId = setInterval(countDown, 1000);
+}
+
 function initialize() {       
     addListenerHitBox();    
 }
@@ -84,3 +108,5 @@ function initialize() {
 document.addEventListener("DOMContentLoaded", () => {
     initialize();
 });
+
+document.getElementById("restart").addEventListener("click", restartGame);
